@@ -41,7 +41,7 @@ public class Main {
     }
 
 
-    static void ex_03() {
+    static void ex_03() {      // Задача 3
         boolean a = true;
         for (int i = 2; i <= 1000; i++) {
             for (int j = 2; j < i; j++) {
@@ -56,7 +56,7 @@ public class Main {
     }
 
 
-    static void ex_04() {
+    static void ex_04() {       // Задача 4
         System.out.println("Введите первое число a: ");
         Scanner scanner1 = new Scanner(System.in);
         Integer a = scanner1.nextInt();
@@ -89,8 +89,6 @@ public class Main {
             System.out.println("Ошибка. Необходимо ввести одну из следующих операций: +, -, *, /");
         }
     }
-
-
 }
 
 
